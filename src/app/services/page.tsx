@@ -30,7 +30,7 @@ export default function ServicesPage() {
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">The NextGen Solar Advantage</h2>
+              <h2 className="text-3xl font-bold mb-6">The HighTech Solar System Advantage</h2>
               <p className="text-muted-foreground mb-6 text-lg">
                 We don&apos;t just install solar panels; we engineer sustainable energy systems optimized for maximum generation and longevity.
               </p>

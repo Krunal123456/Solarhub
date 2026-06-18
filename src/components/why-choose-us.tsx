@@ -25,7 +25,7 @@ export function WhyChooseUs() {
             viewport={{ once: true }}
             className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
           >
-            Why Choose NextGen Solar?
+            Why Choose HighTech Solar System?
           </motion.h2>
         </div>
 

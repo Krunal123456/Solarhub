@@ -16,7 +16,7 @@ export default function BlogPage() {
         >
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl mb-6">Solar Insights & News</h1>
           <p className="text-lg text-muted-foreground">
-            Stay updated with the latest in solar technology, government subsidies, and energy-saving tips from NextGen Solar.
+            Stay updated with the latest in solar technology, government subsidies, and energy-saving tips from HighTech Solar System.
           </p>
         </motion.div>
 

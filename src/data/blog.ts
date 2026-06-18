@@ -8,7 +8,7 @@ export const posts = [
     author: "Energy Expert",
     category: "Government Schemes",
     image: "/images/subsidy_blog_image_1781685610637.png",
-    content: "The PM Surya Ghar: Muft Bijli Yojana is a revolutionary scheme that aims to provide free electricity to 1 crore households in India by installing rooftop solar systems. Under this scheme, households can get a subsidy of up to ₹78,000 for systems of 3kW or higher. This drastically reduces the initial investment required and accelerates the ROI period to just 3-4 years. At NextGen Solar, we handle the entire documentation and application process to ensure you receive the subsidy directly in your bank account."
+    content: "The PM Surya Ghar: Muft Bijli Yojana is a revolutionary scheme that aims to provide free electricity to 1 crore households in India by installing rooftop solar systems. Under this scheme, households can get a subsidy of up to ₹78,000 for systems of 3kW or higher. This drastically reduces the initial investment required and accelerates the ROI period to just 3-4 years. At HighTech Solar System, we handle the entire documentation and application process to ensure you receive the subsidy directly in your bank account."
   },
   {
     id: "1",
@@ -41,6 +41,6 @@ export const posts = [
     author: "Maintenance",
     category: "Tips",
     image: "/images/maintenance_blog_image_1781685649714.png",
-    content: "While solar panels require very little maintenance, the monsoon season brings unique challenges such as heavy debris, dirt accumulation, and lower sunlight. The rain itself acts as a natural cleaner, washing away dust. However, checking for water pooling and ensuring that the electrical conduits are properly sealed is crucial. NextGen Solar offers comprehensive AMC packages where our professional technicians ensure your system is perfectly maintained and operating safely year-round."
+    content: "While solar panels require very little maintenance, the monsoon season brings unique challenges such as heavy debris, dirt accumulation, and lower sunlight. The rain itself acts as a natural cleaner, washing away dust. However, checking for water pooling and ensuring that the electrical conduits are properly sealed is crucial. HighTech Solar System offers comprehensive AMC packages where our professional technicians ensure your system is perfectly maintained and operating safely year-round."
   }
 ];

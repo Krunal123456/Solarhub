@@ -49,7 +49,7 @@ export function Navbar() {
             <Sun className="h-8 w-8 text-primary" />
           </motion.div>
           <span className={`font-bold text-xl md:text-2xl tracking-tight transition-colors ${isTransparent ? 'text-white' : 'text-foreground'} group-hover:text-primary`}>
-            NextGen Solar
+            HighTech Solar System
           </span>
         </Link>
 

@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2 mb-6 text-white">
               <Sun className="h-8 w-8 text-primary" />
-              <span className="font-bold text-2xl tracking-tight">NextGen Solar</span>
+              <span className="font-bold text-2xl tracking-tight">HighTech Solar System</span>
             </Link>
             <p className="text-sm text-zinc-400 mb-6 leading-relaxed">
               MNRE Approved Solar Installation Partner in Maharashtra. Transforming the way you consume energy with premium solar solutions.
@@ -64,7 +64,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-zinc-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
-          <p>© {new Date().getFullYear()} NextGen Solar. All rights reserved. Owned by Nikhil Madhavrao Vaidya.</p>
+          <p>© {new Date().getFullYear()} HighTech Solar System. All rights reserved. Owned by Nikhil Madhavrao Vaidya.</p>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>

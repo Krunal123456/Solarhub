@@ -65,7 +65,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.5 }}
           className="text-lg md:text-xl text-gray-200 max-w-2xl mb-10"
         >
-          Join the green revolution with NextGen Solar. Premium quality panels, expert installation, and hassle-free government subsidy assistance.
+          Join the green revolution with HighTech Solar System. Premium quality panels, expert installation, and hassle-free government subsidy assistance.
         </motion.p>
 
         {/* Buttons */}

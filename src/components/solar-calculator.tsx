@@ -56,7 +56,7 @@ export function SolarCalculator() {
 
   const handleShareWhatsApp = () => {
     if (!result) return;
-    const text = `Hey, I just calculated my solar savings with NextGen Solar!\n\n💡 System Size: ${result.systemSizeKw}kW\n💰 Annual Savings: ₹${result.annualSavings.toLocaleString()}\n🎁 Estimated Subsidy: ₹${result.subsidy.toLocaleString()}\n\nGet your free quote today!`;
+    const text = `Hey, I just calculated my solar savings with HighTech Solar System!\n\n💡 System Size: ${result.systemSizeKw}kW\n💰 Annual Savings: ₹${result.annualSavings.toLocaleString()}\n🎁 Estimated Subsidy: ₹${result.subsidy.toLocaleString()}\n\nGet your free quote today!`;
     const url = `https://wa.me/?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
   };

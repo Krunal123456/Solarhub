@@ -12,7 +12,7 @@ export default function AboutPage() {
           animate={{ opacity: 1, y: 0 }}
           className="max-w-3xl mx-auto text-center mb-16"
         >
-          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl mb-6">About NextGen Solar</h1>
+          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl mb-6">About HighTech Solar System</h1>
           <p className="text-lg text-muted-foreground mb-8">
             Founded by Nikhil Madhavrao Vaidya, we are on a mission to accelerate Maharashtra&apos;s transition to sustainable energy. 
             With over a decade of experience, we provide premium, end-to-end solar solutions for residential, commercial, and industrial clients.
@@ -40,7 +40,7 @@ export default function AboutPage() {
           >
             <h2 className="text-3xl font-bold">Our Vision for a Brighter Future</h2>
             <p className="text-muted-foreground text-lg">
-              At NextGen Solar, we believe that clean, renewable energy should be accessible to everyone. We handle everything from initial consultation and custom design to professional installation and ongoing maintenance.
+              At HighTech Solar System, we believe that clean, renewable energy should be accessible to everyone. We handle everything from initial consultation and custom design to professional installation and ongoing maintenance.
             </p>
             <ul className="space-y-4 pt-4">
               {[

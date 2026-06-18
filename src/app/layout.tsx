@@ -12,8 +12,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "NextGen Solar | Premium Solar Installation in Maharashtra",
-  description: "Save up to 90% on electricity bills with NextGen Solar, an MNRE Approved Solar Installation Partner offering residential, commercial, and industrial solar solutions.",
+  title: "HighTech Solar System | Premium Solar Installation in Maharashtra",
+  description: "Save up to 90% on electricity bills with HighTech Solar System, an MNRE Approved Solar Installation Partner offering residential, commercial, and industrial solar solutions.",
   keywords: ["Solar Energy", "Solar Panels", "Maharashtra Solar", "Net Metering", "Solar Subsidy", "MNRE"],
 };
 

@@ -86,7 +86,7 @@ export default function SubsidyPage() {
             <div className="bg-primary text-primary-foreground p-8 rounded-3xl">
               <h3 className="text-xl font-bold mb-2">We Handle the Paperwork!</h3>
               <p className="text-primary-foreground/80 mb-6">
-                NextGen Solar manages the entire subsidy application and approval process on your behalf, absolutely free of cost.
+                HighTech Solar System manages the entire subsidy application and approval process on your behalf, absolutely free of cost.
               </p>
               <Link href="/contact" className="block w-full">
                 <Button variant="secondary" size="lg" className="w-full">

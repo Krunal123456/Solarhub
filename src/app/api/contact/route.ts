@@ -10,7 +10,7 @@ export async function POST(req: Request) {
 
     // Send email to admin
     const { data, error } = await resend.emails.send({
-      from: "NextGen Solar <onboarding@resend.dev>",
+      from: "HighTech Solar System <onboarding@resend.dev>",
       to: ["info@nextgensolar.com"], // Replace with actual admin email
       subject: `New Solar Inquiry from ${name}`,
       html: `
@@ -38,16 +38,16 @@ export async function POST(req: Request) {
     // Auto-reply to customer if email is provided
     if (email) {
       await resend.emails.send({
-        from: "NextGen Solar <onboarding@resend.dev>",
-        to: [email],
-        subject: "We received your inquiry - NextGen Solar",
-        html: `
-          <h2>Thank you for contacting NextGen Solar!</h2>
-          <p>Hi ${name},</p>
-          <p>We've received your message and our solar experts will get back to you shortly.</p>
-          <p>Best regards,<br/>The NextGen Solar Team</p>
-        `,
-      });
+      from: "HighTech Solar System <onboarding@resend.dev>",
+      to: email,
+      subject: "We received your inquiry - HighTech Solar System",
+      html: `
+        <h2>Thank you for contacting HighTech Solar System!</h2>
+        <p>Hi ${name},</p>
+        <p>We have received your inquiry and our solar experts will get back to you shortly.</p>
+        <p>Best regards,<br/>The HighTech Solar System Team</p>
+      `
+    });
     }
 
     return NextResponse.json({ success: true, data });
