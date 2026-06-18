@@ -64,7 +64,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-zinc-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
-          <p>© {new Date().getFullYear()} NextGen Solar. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} NextGen Solar. All rights reserved. Owned by Nikhil Madhavrao Vaidya.</p>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>

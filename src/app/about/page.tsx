@@ -14,7 +14,7 @@ export default function AboutPage() {
         >
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl mb-6">About NextGen Solar</h1>
           <p className="text-lg text-muted-foreground mb-8">
-            We are on a mission to accelerate Maharashtra&apos;s transition to sustainable energy. 
+            Founded by Nikhil Madhavrao Vaidya, we are on a mission to accelerate Maharashtra&apos;s transition to sustainable energy. 
             With over a decade of experience, we provide premium, end-to-end solar solutions for residential, commercial, and industrial clients.
           </p>
         </motion.div>
