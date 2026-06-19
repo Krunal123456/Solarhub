@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Calculator, CheckCircle2, ShieldCheck, Zap, Clock } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { AnimatedCounter } from "./animated-counter";
 import Link from "next/link";
 
@@ -75,11 +75,9 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.7 }}
           className="flex flex-col sm:flex-row gap-4 mb-16 w-full sm:w-auto"
         >
-          <Link href="/contact" className="w-full sm:w-auto">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white rounded-full h-14 px-8 text-lg w-full sm:w-auto group font-bold">
-              Get Free Quote
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+          <Link href="/contact" className={buttonVariants({ size: "lg", className: "bg-primary hover:bg-primary/90 text-primary-foreground rounded-full h-14 px-8 text-lg w-full sm:w-auto group font-bold" })}>
+            Get Free Quote
+            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </Link>
           <Button size="lg" variant="outline" className="glass hover:bg-white/20 text-white border-white/30 rounded-full h-14 px-8 text-lg w-full sm:w-auto">
             <Calculator className="mr-2 h-5 w-5" />

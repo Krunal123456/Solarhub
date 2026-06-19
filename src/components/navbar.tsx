@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { Sun, Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 
 const navLinks = [
   { title: "Home", href: "/" },
@@ -70,10 +70,8 @@ export function Navbar() {
 
         {/* Desktop CTA */}
         <div className="hidden lg:flex items-center gap-4">
-          <Link href="/contact">
-            <Button variant="default" className="bg-primary hover:bg-primary/90 rounded-full px-6 font-bold">
-              Get Free Quote
-            </Button>
+          <Link href="/contact" className={buttonVariants({ variant: "default", className: "bg-primary hover:bg-primary/90 rounded-full px-6 font-bold text-primary-foreground" })}>
+            Get Free Quote
           </Link>
         </div>
 
@@ -106,10 +104,8 @@ export function Navbar() {
               </Link>
             ))}
             <div className="pt-4 px-4 pb-2">
-              <Link href="/contact" className="block w-full">
-                <Button className="w-full bg-primary hover:bg-primary/90 rounded-full font-bold">
-                  Get Free Quote
-                </Button>
+              <Link href="/contact" className={buttonVariants({ className: "w-full bg-primary hover:bg-primary/90 rounded-full font-bold text-primary-foreground" })}>
+                Get Free Quote
               </Link>
             </div>
           </nav>

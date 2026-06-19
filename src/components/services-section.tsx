@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Home, Building2, Factory, Droplets, Sun, Wrench, ArrowRight } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
 
 const services = [
@@ -81,10 +81,8 @@ export function ServicesSection() {
                   <CardDescription className="text-base">{service.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <Link href="/contact">
-                    <Button variant="ghost" className="p-0 hover:bg-transparent hover:text-primary text-muted-foreground group/btn">
-                      Learn more <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-                    </Button>
+                  <Link href="/contact" className={buttonVariants({ variant: "ghost", className: "p-0 hover:bg-transparent hover:text-primary text-muted-foreground group/btn" })}>
+                    Learn more <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                   </Link>
                 </CardContent>
               </Card>

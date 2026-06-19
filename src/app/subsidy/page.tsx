@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { CheckCircle2, IndianRupee, FileText } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
 
 export default function SubsidyPage() {
@@ -88,10 +88,8 @@ export default function SubsidyPage() {
               <p className="text-primary-foreground/80 mb-6">
                 HighTech Solar System manages the entire subsidy application and approval process on your behalf, absolutely free of cost.
               </p>
-              <Link href="/contact" className="block w-full">
-                <Button variant="secondary" size="lg" className="w-full">
-                  Apply for Subsidy
-                </Button>
+              <Link href="/contact" className={buttonVariants({ variant: "secondary", size: "lg", className: "w-full" })}>
+                Apply for Subsidy
               </Link>
             </div>
           </motion.div>
